@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+:root {
+  --white: #FFFFFF;
+  --disable: #EAEAEA;
+  --primary: #FDCCC5;
+  --secondary: #FB9D90;
+  --black: #181818;
+  --light-gray: #CDCDCD;
+  --gray: #7A7A7A;
+  --dark-gray: #3F3F3F;
+  --cor-fundo: #f4f4f4;
+  --cor-texto: #333333;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.servico-img {
+  width: 12.5rem;
+  height: 12.5;
+}
+
+.container {
+  display: flex;
+}
